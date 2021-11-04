@@ -34,7 +34,9 @@ public class HomeController {
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		
 		String formattedDate = dateFormat.format(date);
-		
+		//model.addAttribute 메소드는 기본형데이터 정수, 실수, 문자열 등을
+		//view 로 보낼때 사용합니다. 또는 view에서 입력받지 않고 새로 생성된 객체를
+		//view 로 보낼때도 사용합니다.
 		model.addAttribute("serverTime", formattedDate );	//request.setAttribute("serverTime",formattedDate)
 		model.addAttribute("message","스프링에 오신것을 환영합니다.");
 		return "home";		//view : home.jsp
@@ -50,9 +52,9 @@ public class HomeController {
 		
 	}
 	
-	@RequestMapping(value = "form")
-	public void form() {
-		
+	@RequestMapping(value = "regist", method = RequestMethod.GET)
+	public String form() {
+		return "form";
 	}
 	
 	@RequestMapping(value = "regist", method = RequestMethod.POST)

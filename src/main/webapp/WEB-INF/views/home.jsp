@@ -19,7 +19,7 @@
 	<li><a href="/day03">/day03</a></li>
 	<li><a href="test">homecontroller test</a></li>
 	<li><a href="hello">homecontroller hello</a></li>
-	<li><a href="form">formcontroller 폼 입력</a></li>
+	<li><a href="regist">formcontroller 폼 입력</a></li>
 </ul>
 
 <ul>
