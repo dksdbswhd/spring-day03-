@@ -10,8 +10,30 @@
 <h1>
 	Hello world!  
 </h1>
-
 <P>  The time on the server is ${serverTime}. </P>
-<!-- ${} : EL request.getAttribute("serverTime")은 애트리뷰트 -->
+<p>${message }</p>
+<%-- ${} : EL request.getAttribute("serverTime")은 애트리뷰트 --%>
+<hr>
+<ul>
+	<li><a href="/">그냥 /</a></li>
+	<li><a href="/day03">/day03</a></li>
+	<li><a href="test">homecontroller test</a></li>
+	<li><a href="hello">homecontroller hello</a></li>
+	<li><a href="form">formcontroller 폼 입력</a></li>
+</ul>
+
+<ul>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+</ul>
+
+<ul>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+</ul>
 </body>
 </html>

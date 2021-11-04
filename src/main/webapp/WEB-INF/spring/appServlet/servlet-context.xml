@@ -22,7 +22,7 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="com.jcpdev.day03" />
-	
+	<!-- @Component 로 bean 생성할 클래스의 패키지 위치 -->
 	
 	
 </beans:beans>
